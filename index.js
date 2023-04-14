@@ -1,4 +1,4 @@
-export const isPrime = (num) => {
+const isPrime = (num) => {
   if (num < 0) {
     for (let i = -2; i >= num / 2; i--) {
       if (num % i === 0) {
@@ -16,7 +16,7 @@ export const isPrime = (num) => {
   return true;
 };
 
-export const getPrimes = (max, start) => {
+const getPrimes = (max, start) => {
   try {
     if (!start) {
       if (max < 0) {
@@ -46,7 +46,7 @@ export const getPrimes = (max, start) => {
   }
 };
 
-export const getPrimesAsObjects = (max, start) => {
+const getPrimesAsObjects = (max, start) => {
   try {
     if (!start) {
       if (max < 0) {
@@ -75,4 +75,9 @@ export const getPrimesAsObjects = (max, start) => {
   } catch (e) {
     console.log(e);
   }
+};
+
+module.exports = {
+  getPrimes,
+  getPrimesAsObjects,
 };
