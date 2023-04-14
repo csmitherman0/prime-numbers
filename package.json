@@ -1,5 +1,5 @@
 {
-  "name": "prime-numbers",
+  "name": "@christian-js/prime-numbers",
   "version": "1.0.0",
   "description": "An NPM package to find all prime number within a certain integer limit",
   "main": "index.js",
