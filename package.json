@@ -1,0 +1,23 @@
+{
+  "name": "prime-numbers",
+  "version": "1.0.0",
+  "description": "An NPM package to find all prime number within a certain integer limit",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/christian-js/prime-numbers.git"
+  },
+  "keywords": [
+    "prime",
+    "numbers"
+  ],
+  "author": "Christian Smitherman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/christian-js/prime-numbers/issues"
+  },
+  "homepage": "https://github.com/christian-js/prime-numbers#readme"
+}
