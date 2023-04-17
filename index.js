@@ -78,6 +78,7 @@ const getPrimesAsObjects = (max, start) => {
 };
 
 module.exports = {
+  isPrime,
   getPrimes,
   getPrimesAsObjects,
 };
